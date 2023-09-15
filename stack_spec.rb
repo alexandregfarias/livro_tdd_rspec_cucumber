@@ -23,3 +23,7 @@ RSpec.describe Stack do
     end
 end
 
+# A estrutura de uma expectation segue o seguinte padrão:
+# expect(atual).to matcher(esperado).
+# - > Espera-se que (valor do topo do stack).seja igual a 2.
+
