@@ -24,3 +24,9 @@
 - > expect(array).to end_with(4)
 - > expect(array).to end_with(3, 4)
 - > expect(array).not_to end_with(3)
+
+# Matchers relacionados a Hashes
+- > expect(hash).to include(:a) 
+- > expect(hash).to include(:a, :b)  [ verifica se o hash tem as chaves ]
+- > expect(hash).to include(a: 7) 
+- > expect(hash).to include(b: 5, a: 7) [ verifica se o hash tem um ou mais pares de chave - valor]
